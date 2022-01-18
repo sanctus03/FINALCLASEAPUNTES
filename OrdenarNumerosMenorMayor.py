@@ -3,6 +3,9 @@
 #   desarrollar un algoritmo que ordene la lista por el metodo de la burbuja
 #   escribir el resultado por pantalla
 
+"""ordenar de menor a mayor, numeros"""
+
+
 lista = []
 while True:
     while True:
@@ -11,7 +14,7 @@ while True:
             break
         except:
             print("el dato introducido no es un numero")
-    if(e == -9999):
+    if(e == -999):
         break
     lista.append(e)
     n= len(lista)

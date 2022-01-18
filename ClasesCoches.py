@@ -24,9 +24,9 @@ class Car:
         self.combustible = combustible
         self.cilindrada = cilindrada
         self.pos_x = 0
-        self.pos_y =
+        self.pos_y = 0
 
-    def move_to(x, y)
+    def move_to(x, y):
         self.pos_x = x
         self.pos_y = y
 

@@ -17,6 +17,6 @@ while True:
     lista_coche.append(linea)
 print("Lista coche:\n", lista_coche)
 
-json.dump(json.dumps(lista_coche), open("coches.txt", "w"))
+
 
 lista_coches = []
